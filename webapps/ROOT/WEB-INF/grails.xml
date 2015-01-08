@@ -1,0 +1,33 @@
+<grails>
+  <resources>
+    <resource>DefaultCacheConfig</resource>
+    <resource>grails.plugin.cache.GrailsCacheAdminService</resource>
+    <resource>grails.plugin.cache.CacheTagLib</resource>
+    <resource>DefaultWebXmlConfig</resource>
+    <resource>AssetPipelineBootStrap</resource>
+    <resource>AssetUrlMappings</resource>
+    <resource>asset.pipeline.AssetsController</resource>
+    <resource>asset.pipeline.AssetProcessorService</resource>
+    <resource>asset.pipeline.AssetMethodTagLib</resource>
+    <resource>asset.pipeline.AssetsTagLib</resource>
+    <resource>JQueryConfig</resource>
+    <resource>JQueryPluginResources</resource>
+    <resource>JQueryService</resource>
+    <resource>JQueryResourceTagLib</resource>
+    <resource>JQueryTagLib</resource>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>resources</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+  <plugins>
+    <plugin>ScaffoldingGrailsPlugin</plugin>
+    <plugin>CacheGrailsPlugin</plugin>
+    <plugin>WebxmlGrailsPlugin</plugin>
+    <plugin>AssetPipelineGrailsPlugin</plugin>
+    <plugin>Hibernate4GrailsPlugin</plugin>
+    <plugin>JqueryGrailsPlugin</plugin>
+  </plugins>
+</grails>
